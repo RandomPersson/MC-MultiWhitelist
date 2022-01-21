@@ -1,0 +1,19 @@
+name: MultiWhitelist
+version: 0.0
+description: Allows adding all people from pasted nick 
+api-version: 1.15
+load: POSTWORLD
+author: RandomPersson
+authors: []
+website: https://discord.gg/RmDbKqq
+
+main: pl.org.mensa.rp.mc.MultiWhitelist.MultiWhitelistPlugin
+database: false
+depend: []
+prefix: 
+softdepend: []
+loadbefore: []
+
+commands:
+  multiwhitelist:
+    aliases: [mwl]
